@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.red{
+    background: red;
+    color: white;
+    height: 200px;
+}
+
+.green{
+    background-color: rgb(58, 216, 15);
+    color: black;
+}
+
+/* Color values:
+1. rgb(red,green,blue);
+We can specify the red,green and blue values in the desired color
+
+2. HEX
+We can specify the hex code of the color 
+They are nothing but rgb values in hexagesimal values
+
+3. HSL
+Hue-Saturation-Lightness
+very low use */

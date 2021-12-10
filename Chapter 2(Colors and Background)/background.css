@@ -1,0 +1,44 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    /* background-color: rgb(174, 107, 56);
+    border: 2px solid red;
+    background-image: url(Assets/index.jpg);
+    background-repeat: no-repeat;
+    background-size: 63px 45px; */
+    
+    /* 1.contain: Covers the maximum amount of background without disturbing the aspect ratio
+    2. cover: covers the whole background forcibly
+    3.auto : uses default size of the image */
+
+    /* background-position: center; */
+    /* //check mdn reference for it */ 
+    color: white;
+    width: 334px;
+    height: 1744px;
+    /* background-attachment: fixed; */
+    /* mdn reference */
+    
+    /* Now using background shorthand */
+    /* Syntax: */
+    /* background: color url() repeat-property attachment position; */
+    background: red url(Assets/index.jpg) no-repeat fixed center;
+}
+
+body{
+    /* background-color: rgb(174, 107, 56);
+    background-image: url(Assets/index.jpg); */
+    /* By this the image will get repeated both horizontally and vertically
+    and to prevent that use background-repeat property */
+    /* background-repeat: repeat-x;To repeat in x axis */
+    /* background-repeat: repeat-y;To repeat in y axis */
+    /* background-repeat: no-repeat; */
+    /* background-size: contain; */
+}
+
+
+/* Background-image property is used to use an image as the background */

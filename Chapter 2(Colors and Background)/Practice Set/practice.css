@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    background-color: black;
+    color: white;
+    width: 344px;
+    height: 62px;
+}
+
+.main{
+    color: red;
+}
+
+.bg{
+    width: 334px;
+    height: 3344px;
+    /* background-image: url(../Assets/bg.jpg);
+    background-repeat: no-repeat;
+    background-color: aqua;
+    background-size: 334px 334px;
+    background-attachment: fixed; */
+    background: aqua url(../Assets/bg.jpg) no-repeat ;
+}
