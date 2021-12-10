@@ -1,0 +1,12 @@
+#first{
+    background-color: red;
+}
+/* Id is targeted by # */
+.bg-blue{
+  background-color: blue;
+  color: aliceblue;  
+}
+/* classes are tergeted by (.) */
+
+
+/* This is css using external css */

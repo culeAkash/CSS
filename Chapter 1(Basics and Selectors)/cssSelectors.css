@@ -1,0 +1,44 @@
+ /* A selector is used to select one or more html elements */
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+ h1{
+    color: red;
+}
+div{
+    background-color: antiquewhite;
+}
+/* By simply specifying the tag name, all the elements with the tag will get effected */
+
+/* Id selector */
+#red,h3{
+    background-color: red;
+    color: antiquewhite;
+}
+/* Groupimg selectors */
+
+
+/* Class selector */
+.blue{
+    background-color: blue;
+    color: white;
+}
+/* Same style can be given to multiple elements by using class identifier */
+
+/* By using (,) we can grp different slectors together */
+
+
+/* Preferance of selectors are in the order:
+1. id selectors
+2. class selectors
+3. element selectors */
+
+
+/* (*) can be used as an universal selector to select all the elemnts */
+
+/* Priority of styles are as follows:
+1. inline css
+2. Internal or external depending on which is rendered first by the html file */
