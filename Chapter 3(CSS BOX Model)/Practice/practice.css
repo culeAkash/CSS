@@ -1,0 +1,30 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    height: 60px;
+    background: black;
+    color: white;
+    border: 2px solid white;
+    margin: 2px;
+}
+
+.content{
+    background-color: red;
+    height: 90vh;
+    padding: 20px 20px;
+    margin: 34px;
+    box-sizing: border-box;
+}
+
+footer{
+    background-color: blueviolet;
+    margin: 23px;
+}
+
+.center{
+    text-align: center;
+}

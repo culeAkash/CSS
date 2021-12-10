@@ -1,0 +1,3 @@
+Margin -> It is a way to apply spacing between two html elements
+
+any html element can be considered as a box which has content then padding then border and finaaly margin

@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.content{
+    height: 400px;
+    width: 345px;
+    background-color: red;
+    margin: 14px;
+    padding: 13px;
+    /* border: 4px solid black; */
+    border-width: 4px;
+    border-style: solid;
+    /* border-style: dashed dotted groove ridge; */
+    /* Clockwise */
+    border-color: aqua;
+    border-radius: 9px;
+}
+
+/* Margin:
+Syntax:
+margin: top-value right-value bottom-value left-value;
+Also we can give margins individually
+margin-top:
+margin-bottom
+margin-right
+margin-left 
+
+margin: first-value second-value
+first value: top and bottom
+second-value: right and left
+*/
+/* Similar values can be assigned to paddin too  */
+
+
+/* Setting Borders->
+border: width style color */
