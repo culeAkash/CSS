@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box1{
+            width: 230px;
+            height: 1134px;
+            background-color: red;
+            display: inline;
+            /* box-sizing: border-box; */
+            /* It will take only the space it needs if we make the display inline */
+        }
+        .box2{
+            width: 230px;
+            height: 1134px;
+            background-color: blue;
+            
+        }
+        /* If we want to display the elements side-by-side we have to make both displays inline */
+    </style>
+</head>
+<body>
+    <div class="box1">
+        Lorem ipsum dolor 
+    </div>
+    <div class="box2">
+        Lorem ipsum dolor sit
+    </div>
+
+</body>
+</html>
+
+
+<!-- Block elements cover the entire width of the screen
+Inline elements cover the only part in which it comprises -->
+
+<!-- There are 4 types of display:
+1. Inline-> Takes only the space required by the element. No linebreaks before and after. Setting width/height not allowed
+2. Block-> Takes full space available in width and leaves a new line before and after the element
+3. Inline-block-> Similar to inline but can set width heigth padding and margin
+4.None-> Removes the element from the none -->
