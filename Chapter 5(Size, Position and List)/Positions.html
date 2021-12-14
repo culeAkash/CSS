@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position</title>
+    <style>
+        /* *{
+            margin: 0;
+            padding: 0;
+        } */
+        li{
+            /* display: inline; */
+            list-style: square outside;
+        }
+        header{
+            background-color: black;
+            color: white;
+            height: 10vh;
+            position: sticky;
+            top: 0px;
+            z-index: 10;/*More the z-index the element will be on top of other elements*/
+        }
+        p{
+            text-align: center;
+        }
+        .container{
+            background-color: aqua;
+            height: 50vh;
+            width: 50vw;
+            margin: auto;
+            padding: 0 34px;
+            position: relative;
+        }
+        .box{
+            height: 200px;
+            width: 200px;
+            background-color: yellowgreen;
+            /* position: relative; */
+            /* position: absolute; */
+            /* position: fixed; */
+            
+        }
+        .box2{
+            height: 200px;
+            width: 200px;
+            background-color: green;
+            /* position: relative; */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Contact</li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae eos sed delectus culpa excepturi labore quaerat impedit dolor quod. Vel accusamus expedita qui excepturi, assumenda deleniti quam possimus culpa aperiam, tempore ipsam praesentium perspiciatis?</p>
+        <div class="box">
+            I am a box
+        </div>
+        <div class="box2">
+            I am box2
+        </div>
+    </div>
+    <ul>
+        <li>Apple</li>
+        <li>banana</li>
+        <li>guava</li>
+    </ul>
+</body>
+</html>
+
+<!-- static-> default position  -->
+
+<!-- relative-> the left right top and bottom commands will now work otherwise it works as static -->
+
+<!-- absolute-> Element is removed from the flow and is relatively positioned to its first non-static ancestor top/bottom,etc. works. -->
+
+<!-- fixed-> Just like absolute axcept the element is positioned relative to the browser window -->
+
+<!-- sticky-> relative to scroll -->
