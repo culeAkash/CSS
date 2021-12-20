@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transforms and transitions </title>
+    <style>
+        .container{
+            background-color: red;
+            height: 50vh;
+        }
+        .box{
+            border: 2px solid black;
+            display: inline-block;
+        }
+
+        /* img:hover{
+            width: 100px;
+        } */
+
+        img{
+            width: 500px;/*Initial property*/
+            height: 500px;
+            /* transition-property: width; 
+            /* property for which we want to specify the transition */
+             /* transition-duration: 2s;  */
+            /* Time taken for the transition */
+            /* transition-timing-function: ease-in;  */
+            /* transition-delay: 2s; */ 
+
+            /* Shorthand */
+            /* transition: width 1s ease-in-out; */
+            transition: width 1s ease-in, height 3s ease-in-out;
+            /* setting multiple element's transition like this */
+            
+        }
+    </style>
+    
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+           <img id="myImage" src="https://source.unsplash.com/260x120/?nature,water"><button id="btn">Toggle</button>
+        </div>
+    </div>
+</body>
+<script>
+    // let btn= document.getElementById("btn");
+    myImage.style.width="100px";
+    myImage.style.height="100px";
+    btn.addEventListener("click",()=>{
+        let img= document.getElementById("myImage");
+        if(myImage.style.width==="500px"){
+            myImage.style.width="100px";
+            myImage.style.height="100px";
+        }
+        else if(myImage.style.width==="100px"){
+            myImage.style.width="500px";
+            myImage.style.height="500px";
+        }
+        
+    })
+</script>
+</html>
+
+<!-- Transforms are used to rotate, move,skew or scale elements.They are used to create a 3-D effect. -->
+
+
+
+
+
+
+
+
+<!-- /* transform: translate(100px,40px) scale(2,3); */
+
+/* Transforms  */
+/* transform: translate(120px,56px); */
+
+/* transform-origin: 0;Setting the origin along which the transformations will occur */
+
+/* Moves the element through x and y axis as according to the values mentioned as first and second args respectively. */
+
+/* Rotates  */
+/* transform: rotate(0.5turn); */
+/* transform: rotate(180deg); */
+/* Specifies how much the element will get turned */
+/* Default axis is always center */
+
+/* Scaling  */
+/* transform: scaleX(4); */
+/* transform: scale(2,2); */
+/* Scale increses in size in both x and y axis direction  */
+
+/* Skew  */
+/* transform: skew(0deg,10deg); */
+/* The value by which the element get slanted */
+
+/* Matrix  */
+/* The matrix() method combines all the 2D transform methods into one. The matrix() method take six parameters, containing mathematic functions, which allows you to rotate, scale, move (translate), and skew elements.*/
+
+/* transform: matrix(); */
+/* The parameters are as follow: matrix(scaleX(),skewY(),skewX(),scaleY(),translateX(),translateY()) */
+
+/* To apply a 2D or 3D transformation to an element */
+
+/* 3-D transform methods */
+/* transform: rotateZ(45deg); */ -->

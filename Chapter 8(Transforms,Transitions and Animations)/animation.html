@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animations</title>
+    <style>
+        .container{
+            height: 100vh;
+            width: 100vw;
+            background-color: aqua;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .box{
+            width: 600px;
+            background-color: red;
+            color: white;
+            height: 300px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+            /* Setting animation */
+            animation-name: widthAnimate;
+            animation-duration: 2s;
+            animation-timing-function: ease-in-out;
+            animation-delay: 1s;
+            animation-iteration-count: infinite;
+            animation-direction: alternate-reverse;
+
+            text-transform: uppercase;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            /* font-size: medium; */
+            font-style: italic;
+            font-weight: bold;
+        }
+
+        @keyframes widthAnimate{
+            from{
+                width:300px;
+            }
+            to{
+                width: 600px;
+            }
+            /* Created an animation and now we to apply it*/
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            I love you Gupta❤
+        </div>
+    </div>
+</body>
+</html>
